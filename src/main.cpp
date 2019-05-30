@@ -11,7 +11,7 @@ int main(int arc, char * argv[]){
 	char player = 'X';
 	
 	while(!anyWin){
-		game->showBoard();
+		std::cout << game->showBoard();
 
 		while(!valid){
 			//receive input

@@ -1,6 +1,8 @@
 #ifndef GAME_H
 #define GAME_H
 
+#include <string>
+
 namespace ttt {
 	class Game {
 		private:
@@ -13,7 +15,7 @@ namespace ttt {
 			Game();
 			void initGame();
 			bool play(int i, int j);
-			void showBoard();
+			std::string showBoard();
 			bool getPlayerTurn();
 			void changeTurn();
 			bool testWin();

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 #include "game.h"
 
 ttt::Game::Game(){
@@ -30,11 +31,15 @@ bool ttt::Game::play(int i, int j){
 
 }
 
-void ttt::Game::showBoard(){
-	std::cout << board_[0][0] << ' ' << board_[0][1] << ' ' << board_[0][2] << std::endl;
-	std::cout << board_[1][0] << ' ' << board_[1][1] << ' ' << board_[1][2] << std::endl;
-	std::cout << board_[2][0] << ' ' << board_[2][1] << ' ' << board_[2][2] << std::endl;
-	std::cout << std::endl;
+std::string ttt::Game::showBoard(){
+	td::stringstream os;
+
+	os << board_[0][0] << ' ' << board_[0][1] << ' ' << board_[0][2] << std::endl 
+	<< board_[1][0] << ' ' << board_[1][1] << ' ' << board_[1][2] << std::endl 
+	<< board_[2][0] << ' ' << board_[2][1] << ' ' << board_[2][2] << std::endl;
+
+	return os.str();
+	
 }
 
 bool ttt::Game::getPlayerTurn(){

@@ -1,0 +1,36 @@
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/Usuários/Jonathan Gabriel/Documents/gameserver/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_9b29d/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_9b29d.dir\build.make CMakeFiles/cmTC_9b29d.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Usuários/Jonathan Gabriel/Documents/gameserver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b29d.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_9b29d.dir\testCCompiler.c.obj   -c "E:\UsuÃ¡rios\Jonathan Gabriel\Documents\gameserver\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+gcc.exe: error: E:\Usu+írios\Jonathan Gabriel\Documents\gameserver\build\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+CMakeFiles\cmTC_9b29d.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_9b29d.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_9b29d.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/Usuários/Jonathan Gabriel/Documents/gameserver/build/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_9b29d/fast' failed
+mingw32-make.exe: *** [cmTC_9b29d/fast] Error 2
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/Usuários/Jonathan Gabriel/Documents/gameserver/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe cmTC_b5f16/fast 
+C:/MinGW/bin/mingw32-make.exe -f CMakeFiles\cmTC_b5f16.dir\build.make CMakeFiles/cmTC_b5f16.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/Usußrios/Jonathan Gabriel/Documents/gameserver/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b5f16.dir/testCCompiler.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_b5f16.dir\testCCompiler.c.obj   -c "E:\Usu├írios\Jonathan Gabriel\Documents\gameserver\build\CMakeFiles\CMakeTmp\testCCompiler.c"
+gcc.exe: error: E:\Usu+Ýrios\Jonathan Gabriel\Documents\gameserver\build\CMakeFiles\CMakeTmp\testCCompiler.c: No such file or directory
+gcc.exe: fatal error: no input files
+compilation terminated.
+CMakeFiles\cmTC_b5f16.dir\build.make:64: recipe for target 'CMakeFiles/cmTC_b5f16.dir/testCCompiler.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_b5f16.dir/testCCompiler.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/Usußrios/Jonathan Gabriel/Documents/gameserver/build/CMakeFiles/CMakeTmp'
+Makefile:120: recipe for target 'cmTC_b5f16/fast' failed
+mingw32-make.exe: *** [cmTC_b5f16/fast] Error 2
+
+
